@@ -10,10 +10,10 @@ const getIndex = (req, res) => {
 };
 
 const getCss = (req, res) => {
-	res.writeHead(200, { 'Content-Type': 'text/css' });
-	res.write(css);
-	res.end();
-}
+  res.writeHead(200, { 'Content-Type': 'text/css' });
+  res.write(css);
+  res.end();
+};
 
 module.exports = {
   getIndex,
